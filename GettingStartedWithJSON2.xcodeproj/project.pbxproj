@@ -13,6 +13,7 @@
 		361346B41C70F5F5004C3CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361346B31C70F5F5004C3CE4 /* Assets.xcassets */; };
 		361346B71C70F5F5004C3CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361346B51C70F5F5004C3CE4 /* LaunchScreen.storyboard */; };
 		361346C21C70F5F5004C3CE4 /* GettingStartedWithJSON2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361346C11C70F5F5004C3CE4 /* GettingStartedWithJSON2Tests.swift */; };
+		361346CE1C711108004C3CE4 /* SWPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361346CD1C711108004C3CE4 /* SWPersons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		361346BD1C70F5F5004C3CE4 /* GettingStartedWithJSON2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingStartedWithJSON2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		361346C11C70F5F5004C3CE4 /* GettingStartedWithJSON2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedWithJSON2Tests.swift; sourceTree = "<group>"; };
 		361346C31C70F5F5004C3CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361346CD1C711108004C3CE4 /* SWPersons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWPersons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		361346AB1C70F5F5004C3CE4 /* GettingStartedWithJSON2 */ = {
 			isa = PBXGroup;
 			children = (
+				361346CC1C7110E3004C3CE4 /* Models */,
 				361346AC1C70F5F5004C3CE4 /* AppDelegate.swift */,
 				361346AE1C70F5F5004C3CE4 /* ViewController.swift */,
 				361346B01C70F5F5004C3CE4 /* Main.storyboard */,
@@ -94,6 +97,14 @@
 				361346C31C70F5F5004C3CE4 /* Info.plist */,
 			);
 			path = GettingStartedWithJSON2Tests;
+			sourceTree = "<group>";
+		};
+		361346CC1C7110E3004C3CE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				361346CD1C711108004C3CE4 /* SWPersons.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			files = (
 				361346AF1C70F5F5004C3CE4 /* ViewController.swift in Sources */,
 				361346AD1C70F5F5004C3CE4 /* AppDelegate.swift in Sources */,
+				361346CE1C711108004C3CE4 /* SWPersons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GettingStartedWithJSON2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = askari01.GettingStartedWithJSON2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GettingStartedWithJSON2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = askari01.GettingStartedWithJSON2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
